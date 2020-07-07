@@ -1,0 +1,78 @@
+
+-- ALERT table stores details related to alert created by user
+CREATE TABLE alert (
+    id INT NOT NULL AUTO_INCREMENT,
+    notification_type INT,
+    n_retries INT,
+    retry_delay INT,
+    send_type INT,
+    message VARCHAR(100),
+    allow_response_change TINYINT(1),
+    created_by VARCHAR(32),
+    created_date DATE,
+    updated_by VARCHAR(32),
+    updated_date DATE
+)
+
+-- ALERT_RESPONSE stores a record for each response created for an alert
+CREATE TABLE alert_response (
+    id INT NOT NULL AUTO_INCREMENT,
+    alert_id INT,
+    description VARCHAR(200),
+    created_date DATE,
+    created_by VARCHAR(32),
+    updated_date DATE,
+    updated_by VARCHAR(32)
+)
+
+-- ALERT_USER stores a record for each user that will be notified of the response
+CREATE TABLE alert_user (
+    id INT NOT NULL AUTO_INCREMENT,
+    user_id INT,
+    response_status TINYINT(1),
+    alert_id INT,
+    alert_response_id INT,
+    response_date DATE,
+    response_by VARCHAR(32),
+    created_date DATE,
+    created_by VARCHAR(32),
+    updated_date DATE,
+    updated_by VARCHAR(32)
+)
+
+-- ALERT_NOTIFICATION_TYPE table stores all notification types
+CREATE TABLE alert_notification_type (
+    id INT NOT NULL AUTO_INCREMENT,
+    description VARCHAR(20),
+    created_date DATE,
+    created_by VARCHAR(32),
+    updated_date DATE,
+    updated_by VARCHAR(32)
+)
+
+-- ALERT_TEMPLATE stores predefined alerts user can use
+CREATE TABLE alert_template (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(32),
+    notification_type INT,
+    n_retries INT,
+    retry_delay INT,
+    send_type INT,
+    message VARCHAR(100),
+    allow_response_change TINYINT(1),
+    created_by VARCHAR(32),
+    created_date DATE,
+    updated_by VARCHAR(32),
+    updated_date DATE
+)
+
+-- ALERT_TEMPLATE_RESPONSE
+CREATE TABLE alert_template_response (
+    id INT NOT NULL AUTO_INCREMENT,
+    template_alert_id INT,
+    description VARCHAR(200),
+    created_date DATE,
+    created_by VARCHAR(32),
+    updated_date DATE,
+    updated_by VARCHAR(32)
+)

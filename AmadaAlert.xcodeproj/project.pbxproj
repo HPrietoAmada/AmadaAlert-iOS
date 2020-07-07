@@ -7,14 +7,94 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		827D772E332FC11E379ACF73 /* Pods_AmadaAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF708882904F1BA0C56968D /* Pods_AmadaAlert.framework */; };
+		C887E1DB61DDD6B9C7A21D41 /* Pods_AmadaAlertTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C58E0DA73C09E53DAADA2D47 /* Pods_AmadaAlertTests.framework */; };
+		CE0E53EB7E4F12BDF1A4DFF6 /* Pods_AmadaAlertUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC94D72F236C06A9A74B0F6 /* Pods_AmadaAlertUITests.framework */; };
+		DE007EF922E7B13C001C5032 /* WebITUsersOffices.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE007EF822E7B13C001C5032 /* WebITUsersOffices.swift */; };
+		DE007EFC22E7B28D001C5032 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE007EFB22E7B28D001C5032 /* DBManager.swift */; };
+		DE007EFE22E7B2B3001C5032 /* DBManager+UsersOffices.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE007EFD22E7B2B3001C5032 /* DBManager+UsersOffices.swift */; };
+		DE13657C23F1FF5900B117A0 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE13657B23F1FF5900B117A0 /* UIView+Extensions.swift */; };
+		DE13657E23F2346D00B117A0 /* CreateResponseViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE13657D23F2346D00B117A0 /* CreateResponseViewController+TableView.swift */; };
+		DE14296323F5E28D00894A8F /* DBManager+AlertResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE14296223F5E28D00894A8F /* DBManager+AlertResponse.swift */; };
+		DE1C448022E146D7002B3985 /* AddNavbarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C447F22E146D7002B3985 /* AddNavbarButtonItem.swift */; };
+		DE39024521C7FA0300A32B6B /* CreateResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE39024421C7FA0300A32B6B /* CreateResponseViewController.swift */; };
+		DE39024821C7FB1C00A32B6B /* AddButtonTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE39024721C7FB1C00A32B6B /* AddButtonTableViewHeader.swift */; };
+		DE39024D21C80B7400A32B6B /* SelectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE39024C21C80B7400A32B6B /* SelectTableViewCell.swift */; };
+		DE39024F21C811E100A32B6B /* CreateResponseViewController+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE39024E21C811E100A32B6B /* CreateResponseViewController+Protocol.swift */; };
+		DE4C55DA240D93B300797898 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4C55D9240D93B300797898 /* SettingsViewController.swift */; };
+		DE4C55DE240D96CD00797898 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4C55DD240D96CD00797898 /* SettingsTableViewCell.swift */; };
+		DE4C55E0240D984800797898 /* SettingsViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4C55DF240D984800797898 /* SettingsViewController+TableView.swift */; };
+		DE5876BC23EB99F8004ECD18 /* TableCellTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5876BB23EB99F8004ECD18 /* TableCellTextView.swift */; };
+		DE65603622E612FB00EC1659 /* AlertNotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE65603522E612FB00EC1659 /* AlertNotificationType.swift */; };
+		DE65603822E6138A00EC1659 /* AlertResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE65603722E6138A00EC1659 /* AlertResponse.swift */; };
+		DE65603A22E6147C00EC1659 /* AlertRetryLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE65603922E6147C00EC1659 /* AlertRetryLog.swift */; };
+		DE65603C22E614E100EC1659 /* AlertTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE65603B22E614E100EC1659 /* AlertTemplate.swift */; };
+		DE65603E22E6161700EC1659 /* AlertTemplateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE65603D22E6161700EC1659 /* AlertTemplateResponse.swift */; };
+		DE65604022E6177100EC1659 /* AlertTemplateUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE65603F22E6177100EC1659 /* AlertTemplateUser.swift */; };
+		DE65604222E617E800EC1659 /* AlertUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE65604122E617E800EC1659 /* AlertUser.swift */; };
+		DE65DD452408A3B100CD4C34 /* DBManager+AlertNotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE65DD442408A3B100CD4C34 /* DBManager+AlertNotificationType.swift */; };
+		DE65DD482408A8AE00CD4C34 /* AlertNotificationTypeMgmtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE65DD472408A8AE00CD4C34 /* AlertNotificationTypeMgmtViewController.swift */; };
+		DE65DD4B2408A98A00CD4C34 /* TextInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE65DD4A2408A98A00CD4C34 /* TextInputViewController.swift */; };
+		DE734D0E21C65058005CC463 /* CheckboxCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE734D0D21C65058005CC463 /* CheckboxCollectionViewCell.swift */; };
+		DE734D1121C650B5005CC463 /* BlankCollectionReuseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE734D1021C650B5005CC463 /* BlankCollectionReuseCell.swift */; };
+		DE734D1421C650EB005CC463 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE734D1321C650EB005CC463 /* CollectionView.swift */; };
+		DE734D1721C65230005CC463 /* SelectGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE734D1621C65230005CC463 /* SelectGroupViewController.swift */; };
+		DE734D1A21C65579005CC463 /* TitleCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE734D1921C65579005CC463 /* TitleCollectionViewHeader.swift */; };
+		DE734D1C21C655C6005CC463 /* SelectGroupViewController+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE734D1B21C655C6005CC463 /* SelectGroupViewController+CollectionView.swift */; };
+		DE734D1E21C65675005CC463 /* SelectGroupViewController+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE734D1D21C65675005CC463 /* SelectGroupViewController+Protocol.swift */; };
+		DE734D2121C658CE005CC463 /* LabeledActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE734D2021C658CE005CC463 /* LabeledActionView.swift */; };
+		DE734D2321C76849005CC463 /* CreateAlertViewController+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE734D2221C76849005CC463 /* CreateAlertViewController+Protocol.swift */; };
+		DE734D2621C778F9005CC463 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE734D2521C778F9005CC463 /* Button.swift */; };
+		DE736C71241FFABC00B1692A /* TableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE736C70241FFABC00B1692A /* TableViewHeader.swift */; };
+		DEBF0CD723EB886E0095E2A5 /* DBManager+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBF0CD623EB886E0095E2A5 /* DBManager+Alert.swift */; };
+		DEBF0CD923EB8DE50095E2A5 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBF0CD823EB8DE50095E2A5 /* UIViewController+Extension.swift */; };
+		DEBF0CDB23EB8F850095E2A5 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBF0CDA23EB8F850095E2A5 /* Alert.swift */; };
+		DEC0191C22EF7FD400C35F39 /* LabeledPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0191B22EF7FD400C35F39 /* LabeledPickerView.swift */; };
+		DEC0191E22EF7FE400C35F39 /* LabeledPickerView+PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0191D22EF7FE400C35F39 /* LabeledPickerView+PickerView.swift */; };
+		DEC0192022EFA80300C35F39 /* AlertTemplateMgmtController+AlertTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0191F22EFA80300C35F39 /* AlertTemplateMgmtController+AlertTemplate.swift */; };
+		DEC0192222EFA83A00C35F39 /* CreateAlertViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0192122EFA83A00C35F39 /* CreateAlertViewController+Alert.swift */; };
+		DEC0192422EFABB100C35F39 /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0192322EFABB100C35F39 /* AlertModel.swift */; };
+		DEC0192622EFAC9F00C35F39 /* AlertTemplateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0192522EFAC9F00C35F39 /* AlertTemplateModel.swift */; };
+		DEC0192922F0C1D000C35F39 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0192822F0C1D000C35F39 /* CoreDataManager.swift */; };
+		DEC0192B22F0C2A200C35F39 /* CoreDataManager+WebITUsersOffices.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0192A22F0C2A200C35F39 /* CoreDataManager+WebITUsersOffices.swift */; };
+		DEC0192D22F0CFFD00C35F39 /* CoreDataManager+AlertTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0192C22F0CFFD00C35F39 /* CoreDataManager+AlertTemplate.swift */; };
+		DEC276EE22D4FE82001AAC27 /* AlertStatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC276ED22D4FE82001AAC27 /* AlertStatsViewController.swift */; };
+		DEC2776A22D5259A001AAC27 /* AlertStatsViewController+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC2776922D5259A001AAC27 /* AlertStatsViewController+Protocol.swift */; };
+		DEC2776C22D52B8E001AAC27 /* AlertStatsViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC2776B22D52B8E001AAC27 /* AlertStatsViewController+TableView.swift */; };
+		DEC2776F22D5449C001AAC27 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC2776E22D5449C001AAC27 /* TableView.swift */; };
+		DEC2777522D54648001AAC27 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC2777422D54648001AAC27 /* Font+Extension.swift */; };
+		DEC2777822D54F9F001AAC27 /* ResponseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC2777722D54F9F001AAC27 /* ResponseTableViewCell.swift */; };
+		DEC2777B22D5523A001AAC27 /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC2777A22D5523A001AAC27 /* Border.swift */; };
+		DEC2777E22D552F7001AAC27 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC2777D22D552F7001AAC27 /* Date+Extensions.swift */; };
+		DECA8E5722E22C740042775D /* BasicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECA8E5622E22C740042775D /* BasicTableViewCell.swift */; };
+		DECA8E5922E2379E0042775D /* database.text in Resources */ = {isa = PBXBuildFile; fileRef = DECA8E5822E2379E0042775D /* database.text */; };
+		DEE4B37B22E8E348009BF922 /* LabeledTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE4B37A22E8E348009BF922 /* LabeledTextfield.swift */; };
+		DEE4B38122E90514009BF922 /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE4B38022E90514009BF922 /* CheckboxView.swift */; };
+		DEE4B38422EBAD88009BF922 /* AlertTemplateMgmtController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE4B38322EBAD88009BF922 /* AlertTemplateMgmtController.swift */; };
+		DEE4B38622EBB11D009BF922 /* AlertTemplateMgmtController+ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE4B38522EBB11D009BF922 /* AlertTemplateMgmtController+ScrollView.swift */; };
+		DEE4B38822EBB12E009BF922 /* AlertTemplateMgmtController+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE4B38722EBB12E009BF922 /* AlertTemplateMgmtController+Protocol.swift */; };
+		DEE4B38B22EBB292009BF922 /* TextNavbarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE4B38A22EBB292009BF922 /* TextNavbarButtonItem.swift */; };
+		DEF05B1122D654FE0067ECA0 /* AlertTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF05B1022D654FE0067ECA0 /* AlertTableViewController.swift */; };
+		DEF05B1322D6551F0067ECA0 /* AlertTableViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF05B1222D6551F0067ECA0 /* AlertTableViewController+TableView.swift */; };
 		DEF4430021C45F3F00CF36CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF442FF21C45F3F00CF36CD /* AppDelegate.swift */; };
 		DEF4430221C45F3F00CF36CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4430121C45F3F00CF36CD /* ViewController.swift */; };
-		DEF4430521C45F3F00CF36CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF4430321C45F3F00CF36CD /* Main.storyboard */; };
 		DEF4430821C45F3F00CF36CD /* AmadaAlert.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEF4430621C45F3F00CF36CD /* AmadaAlert.xcdatamodeld */; };
 		DEF4430A21C45F4000CF36CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF4430921C45F4000CF36CD /* Assets.xcassets */; };
-		DEF4430D21C45F4000CF36CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF4430B21C45F4000CF36CD /* LaunchScreen.storyboard */; };
 		DEF4431821C45F4100CF36CD /* AmadaAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4431721C45F4100CF36CD /* AmadaAlertTests.swift */; };
 		DEF4432321C45F4100CF36CD /* AmadaAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4432221C45F4100CF36CD /* AmadaAlertUITests.swift */; };
+		DEF4433C21C46B3900CF36CD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4433B21C46B3900CF36CD /* HomeViewController.swift */; };
+		DEF4433F21C46BCF00CF36CD /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4433E21C46BCF00CF36CD /* NavigationController.swift */; };
+		DEF4434221C46CD100CF36CD /* CreateAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4434121C46CD100CF36CD /* CreateAlertViewController.swift */; };
+		DEF4434521C46E2900CF36CD /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4434421C46E2900CF36CD /* TitleView.swift */; };
+		DEF4434821C46E7800CF36CD /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4434721C46E7800CF36CD /* ScrollView.swift */; };
+		DEF4434B21C4703500CF36CD /* LabeledTextInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4434A21C4703500CF36CD /* LabeledTextInputView.swift */; };
+		DEF4434F21C470E200CF36CD /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4434E21C470E200CF36CD /* UIColor+Extension.swift */; };
+		DEF4435121C471F300CF36CD /* LabeledTextInputView+TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4435021C471F300CF36CD /* LabeledTextInputView+TextView.swift */; };
+		DEF4435421C4764000CF36CD /* CloseNavbarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4435321C4764000CF36CD /* CloseNavbarButtonItem.swift */; };
+		DEF4435621C482D600CF36CD /* CreateAlertViewController+ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF4435521C482D600CF36CD /* CreateAlertViewController+ScrollView.swift */; };
+		DEF6A01723FF3210007113CF /* DBManager+AlertTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF6A01623FF3210007113CF /* DBManager+AlertTemplate.swift */; };
+		DEF6A01923FF5A10007113CF /* DBManager+AlertTemplateResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF6A01823FF5A10007113CF /* DBManager+AlertTemplateResponse.swift */; };
+		DEF6BA2D23F4A6E400B21A57 /* AlertTableViewController+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF6BA2C23F4A6E400B21A57 /* AlertTableViewController+Protocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +115,85 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49255732E7B6D3074EEE1BC7 /* Pods-AmadaAlertTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmadaAlertTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmadaAlertTests/Pods-AmadaAlertTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FF708882904F1BA0C56968D /* Pods_AmadaAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmadaAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B76DCD3C1D3E4828AFB976 /* Pods-AmadaAlertUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmadaAlertUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmadaAlertUITests/Pods-AmadaAlertUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7EC94D72F236C06A9A74B0F6 /* Pods_AmadaAlertUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmadaAlertUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B97477CB394A2A6B954222 /* Pods-AmadaAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmadaAlert.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmadaAlert/Pods-AmadaAlert.release.xcconfig"; sourceTree = "<group>"; };
+		B57733DE943C6D68B4F13A08 /* Pods-AmadaAlertUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmadaAlertUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmadaAlertUITests/Pods-AmadaAlertUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C58E0DA73C09E53DAADA2D47 /* Pods_AmadaAlertTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmadaAlertTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7A72F69914C65161BFE914 /* Pods-AmadaAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmadaAlert.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AmadaAlert/Pods-AmadaAlert.debug.xcconfig"; sourceTree = "<group>"; };
+		DE007EF822E7B13C001C5032 /* WebITUsersOffices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebITUsersOffices.swift; sourceTree = "<group>"; };
+		DE007EFB22E7B28D001C5032 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		DE007EFD22E7B2B3001C5032 /* DBManager+UsersOffices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DBManager+UsersOffices.swift"; sourceTree = "<group>"; };
+		DE13657B23F1FF5900B117A0 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		DE13657D23F2346D00B117A0 /* CreateResponseViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CreateResponseViewController+TableView.swift"; sourceTree = "<group>"; };
+		DE14296223F5E28D00894A8F /* DBManager+AlertResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DBManager+AlertResponse.swift"; sourceTree = "<group>"; };
+		DE1C447F22E146D7002B3985 /* AddNavbarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNavbarButtonItem.swift; sourceTree = "<group>"; };
+		DE39024421C7FA0300A32B6B /* CreateResponseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateResponseViewController.swift; sourceTree = "<group>"; };
+		DE39024721C7FB1C00A32B6B /* AddButtonTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButtonTableViewHeader.swift; sourceTree = "<group>"; };
+		DE39024C21C80B7400A32B6B /* SelectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTableViewCell.swift; sourceTree = "<group>"; };
+		DE39024E21C811E100A32B6B /* CreateResponseViewController+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CreateResponseViewController+Protocol.swift"; sourceTree = "<group>"; };
+		DE4C55D9240D93B300797898 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DE4C55DD240D96CD00797898 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		DE4C55DF240D984800797898 /* SettingsViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsViewController+TableView.swift"; sourceTree = "<group>"; };
+		DE5876BB23EB99F8004ECD18 /* TableCellTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellTextView.swift; sourceTree = "<group>"; };
+		DE65603522E612FB00EC1659 /* AlertNotificationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertNotificationType.swift; sourceTree = "<group>"; };
+		DE65603722E6138A00EC1659 /* AlertResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertResponse.swift; sourceTree = "<group>"; };
+		DE65603922E6147C00EC1659 /* AlertRetryLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertRetryLog.swift; sourceTree = "<group>"; };
+		DE65603B22E614E100EC1659 /* AlertTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTemplate.swift; sourceTree = "<group>"; };
+		DE65603D22E6161700EC1659 /* AlertTemplateResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTemplateResponse.swift; sourceTree = "<group>"; };
+		DE65603F22E6177100EC1659 /* AlertTemplateUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTemplateUser.swift; sourceTree = "<group>"; };
+		DE65604122E617E800EC1659 /* AlertUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUser.swift; sourceTree = "<group>"; };
+		DE65DD442408A3B100CD4C34 /* DBManager+AlertNotificationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DBManager+AlertNotificationType.swift"; sourceTree = "<group>"; };
+		DE65DD472408A8AE00CD4C34 /* AlertNotificationTypeMgmtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertNotificationTypeMgmtViewController.swift; sourceTree = "<group>"; };
+		DE65DD4A2408A98A00CD4C34 /* TextInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputViewController.swift; sourceTree = "<group>"; };
+		DE734D0D21C65058005CC463 /* CheckboxCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE734D1021C650B5005CC463 /* BlankCollectionReuseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankCollectionReuseCell.swift; sourceTree = "<group>"; };
+		DE734D1321C650EB005CC463 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		DE734D1621C65230005CC463 /* SelectGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectGroupViewController.swift; sourceTree = "<group>"; };
+		DE734D1921C65579005CC463 /* TitleCollectionViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewHeader.swift; sourceTree = "<group>"; };
+		DE734D1B21C655C6005CC463 /* SelectGroupViewController+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SelectGroupViewController+CollectionView.swift"; sourceTree = "<group>"; };
+		DE734D1D21C65675005CC463 /* SelectGroupViewController+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SelectGroupViewController+Protocol.swift"; sourceTree = "<group>"; };
+		DE734D2021C658CE005CC463 /* LabeledActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledActionView.swift; sourceTree = "<group>"; };
+		DE734D2221C76849005CC463 /* CreateAlertViewController+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CreateAlertViewController+Protocol.swift"; sourceTree = "<group>"; };
+		DE734D2521C778F9005CC463 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		DE736C70241FFABC00B1692A /* TableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewHeader.swift; sourceTree = "<group>"; };
+		DEBF0CD623EB886E0095E2A5 /* DBManager+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DBManager+Alert.swift"; sourceTree = "<group>"; };
+		DEBF0CD823EB8DE50095E2A5 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		DEBF0CDA23EB8F850095E2A5 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		DEC0191B22EF7FD400C35F39 /* LabeledPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledPickerView.swift; sourceTree = "<group>"; };
+		DEC0191D22EF7FE400C35F39 /* LabeledPickerView+PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LabeledPickerView+PickerView.swift"; sourceTree = "<group>"; };
+		DEC0191F22EFA80300C35F39 /* AlertTemplateMgmtController+AlertTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertTemplateMgmtController+AlertTemplate.swift"; sourceTree = "<group>"; };
+		DEC0192122EFA83A00C35F39 /* CreateAlertViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CreateAlertViewController+Alert.swift"; sourceTree = "<group>"; };
+		DEC0192322EFABB100C35F39 /* AlertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertModel.swift; sourceTree = "<group>"; };
+		DEC0192522EFAC9F00C35F39 /* AlertTemplateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTemplateModel.swift; sourceTree = "<group>"; };
+		DEC0192822F0C1D000C35F39 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		DEC0192A22F0C2A200C35F39 /* CoreDataManager+WebITUsersOffices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreDataManager+WebITUsersOffices.swift"; sourceTree = "<group>"; };
+		DEC0192C22F0CFFD00C35F39 /* CoreDataManager+AlertTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoreDataManager+AlertTemplate.swift"; sourceTree = "<group>"; };
+		DEC276ED22D4FE82001AAC27 /* AlertStatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertStatsViewController.swift; sourceTree = "<group>"; };
+		DEC2776922D5259A001AAC27 /* AlertStatsViewController+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertStatsViewController+Protocol.swift"; sourceTree = "<group>"; };
+		DEC2776B22D52B8E001AAC27 /* AlertStatsViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertStatsViewController+TableView.swift"; sourceTree = "<group>"; };
+		DEC2776E22D5449C001AAC27 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
+		DEC2777422D54648001AAC27 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		DEC2777722D54F9F001AAC27 /* ResponseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseTableViewCell.swift; sourceTree = "<group>"; };
+		DEC2777A22D5523A001AAC27 /* Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Border.swift; sourceTree = "<group>"; };
+		DEC2777D22D552F7001AAC27 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		DECA8E5622E22C740042775D /* BasicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTableViewCell.swift; sourceTree = "<group>"; };
+		DECA8E5822E2379E0042775D /* database.text */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = database.text; sourceTree = "<group>"; };
+		DEE4B37A22E8E348009BF922 /* LabeledTextfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledTextfield.swift; sourceTree = "<group>"; };
+		DEE4B38022E90514009BF922 /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
+		DEE4B38322EBAD88009BF922 /* AlertTemplateMgmtController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTemplateMgmtController.swift; sourceTree = "<group>"; };
+		DEE4B38522EBB11D009BF922 /* AlertTemplateMgmtController+ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertTemplateMgmtController+ScrollView.swift"; sourceTree = "<group>"; };
+		DEE4B38722EBB12E009BF922 /* AlertTemplateMgmtController+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertTemplateMgmtController+Protocol.swift"; sourceTree = "<group>"; };
+		DEE4B38A22EBB292009BF922 /* TextNavbarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextNavbarButtonItem.swift; sourceTree = "<group>"; };
+		DEF05B1022D654FE0067ECA0 /* AlertTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertTableViewController.swift; sourceTree = "<group>"; };
+		DEF05B1222D6551F0067ECA0 /* AlertTableViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertTableViewController+TableView.swift"; sourceTree = "<group>"; };
 		DEF442FC21C45F3F00CF36CD /* AmadaAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmadaAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF442FF21C45F3F00CF36CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEF4430121C45F3F00CF36CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DEF4430421C45F3F00CF36CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEF4430721C45F3F00CF36CD /* AmadaAlert.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AmadaAlert.xcdatamodel; sourceTree = "<group>"; };
 		DEF4430921C45F4000CF36CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DEF4430C21C45F4000CF36CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEF4430E21C45F4000CF36CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEF4431321C45F4100CF36CD /* AmadaAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmadaAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF4431721C45F4100CF36CD /* AmadaAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmadaAlertTests.swift; sourceTree = "<group>"; };
@@ -49,6 +201,20 @@
 		DEF4431E21C45F4100CF36CD /* AmadaAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmadaAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF4432221C45F4100CF36CD /* AmadaAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmadaAlertUITests.swift; sourceTree = "<group>"; };
 		DEF4432421C45F4100CF36CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEF4433B21C46B3900CF36CD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DEF4433E21C46BCF00CF36CD /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		DEF4434121C46CD100CF36CD /* CreateAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAlertViewController.swift; sourceTree = "<group>"; };
+		DEF4434421C46E2900CF36CD /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		DEF4434721C46E7800CF36CD /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		DEF4434A21C4703500CF36CD /* LabeledTextInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledTextInputView.swift; sourceTree = "<group>"; };
+		DEF4434E21C470E200CF36CD /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		DEF4435021C471F300CF36CD /* LabeledTextInputView+TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LabeledTextInputView+TextView.swift"; sourceTree = "<group>"; };
+		DEF4435321C4764000CF36CD /* CloseNavbarButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseNavbarButtonItem.swift; sourceTree = "<group>"; };
+		DEF4435521C482D600CF36CD /* CreateAlertViewController+ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CreateAlertViewController+ScrollView.swift"; sourceTree = "<group>"; };
+		DEF6A01623FF3210007113CF /* DBManager+AlertTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DBManager+AlertTemplate.swift"; sourceTree = "<group>"; };
+		DEF6A01823FF5A10007113CF /* DBManager+AlertTemplateResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DBManager+AlertTemplateResponse.swift"; sourceTree = "<group>"; };
+		DEF6BA2C23F4A6E400B21A57 /* AlertTableViewController+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertTableViewController+Protocol.swift"; sourceTree = "<group>"; };
+		FCFE249812D569D76BB5A146 /* Pods-AmadaAlertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmadaAlertTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AmadaAlertTests/Pods-AmadaAlertTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +222,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				827D772E332FC11E379ACF73 /* Pods_AmadaAlert.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +230,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C887E1DB61DDD6B9C7A21D41 /* Pods_AmadaAlertTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +238,297 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0E53EB7E4F12BDF1A4DFF6 /* Pods_AmadaAlertUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BFDFB4300D30CC543FB54E6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE7A72F69914C65161BFE914 /* Pods-AmadaAlert.debug.xcconfig */,
+				A3B97477CB394A2A6B954222 /* Pods-AmadaAlert.release.xcconfig */,
+				49255732E7B6D3074EEE1BC7 /* Pods-AmadaAlertTests.debug.xcconfig */,
+				FCFE249812D569D76BB5A146 /* Pods-AmadaAlertTests.release.xcconfig */,
+				B57733DE943C6D68B4F13A08 /* Pods-AmadaAlertUITests.debug.xcconfig */,
+				53B76DCD3C1D3E4828AFB976 /* Pods-AmadaAlertUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5911F78DA5A4583B5C7698F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4FF708882904F1BA0C56968D /* Pods_AmadaAlert.framework */,
+				C58E0DA73C09E53DAADA2D47 /* Pods_AmadaAlertTests.framework */,
+				7EC94D72F236C06A9A74B0F6 /* Pods_AmadaAlertUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE007EFA22E7B1BE001C5032 /* DBManager */ = {
+			isa = PBXGroup;
+			children = (
+				DE007EFB22E7B28D001C5032 /* DBManager.swift */,
+				DE007EFD22E7B2B3001C5032 /* DBManager+UsersOffices.swift */,
+				DEBF0CD623EB886E0095E2A5 /* DBManager+Alert.swift */,
+				DE14296223F5E28D00894A8F /* DBManager+AlertResponse.swift */,
+				DEF6A01623FF3210007113CF /* DBManager+AlertTemplate.swift */,
+				DEF6A01823FF5A10007113CF /* DBManager+AlertTemplateResponse.swift */,
+				DE65DD442408A3B100CD4C34 /* DBManager+AlertNotificationType.swift */,
+			);
+			path = DBManager;
+			sourceTree = "<group>";
+		};
+		DE1C447E22E146B8002B3985 /* AddNavbarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				DE1C447F22E146D7002B3985 /* AddNavbarButtonItem.swift */,
+			);
+			path = AddNavbarButtonItem;
+			sourceTree = "<group>";
+		};
+		DE39024321C7F9E600A32B6B /* CreateResponseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE39024421C7FA0300A32B6B /* CreateResponseViewController.swift */,
+				DE39024E21C811E100A32B6B /* CreateResponseViewController+Protocol.swift */,
+				DE13657D23F2346D00B117A0 /* CreateResponseViewController+TableView.swift */,
+			);
+			path = CreateResponseViewController;
+			sourceTree = "<group>";
+		};
+		DE39024621C7FB0200A32B6B /* AddButtonHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				DE39024721C7FB1C00A32B6B /* AddButtonTableViewHeader.swift */,
+			);
+			path = AddButtonHeaderView;
+			sourceTree = "<group>";
+		};
+		DE39024B21C80B5200A32B6B /* SelectTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE39024C21C80B7400A32B6B /* SelectTableViewCell.swift */,
+			);
+			path = SelectTableViewCell;
+			sourceTree = "<group>";
+		};
+		DE4C55D8240D93A100797898 /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE4C55D9240D93B300797898 /* SettingsViewController.swift */,
+				DE4C55DF240D984800797898 /* SettingsViewController+TableView.swift */,
+			);
+			path = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		DE4C55DB240D96B100797898 /* SettingsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE4C55DD240D96CD00797898 /* SettingsTableViewCell.swift */,
+			);
+			path = SettingsTableViewCell;
+			sourceTree = "<group>";
+		};
+		DE5876BA23EB99DE004ECD18 /* TableCellTextView */ = {
+			isa = PBXGroup;
+			children = (
+				DE5876BB23EB99F8004ECD18 /* TableCellTextView.swift */,
+			);
+			path = TableCellTextView;
+			sourceTree = "<group>";
+		};
+		DE65DD462408A89700CD4C34 /* AlertNotificationTypeMgmtViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE65DD472408A8AE00CD4C34 /* AlertNotificationTypeMgmtViewController.swift */,
+			);
+			path = AlertNotificationTypeMgmtViewController;
+			sourceTree = "<group>";
+		};
+		DE65DD492408A97A00CD4C34 /* TextInputViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE65DD4A2408A98A00CD4C34 /* TextInputViewController.swift */,
+			);
+			path = TextInputViewController;
+			sourceTree = "<group>";
+		};
+		DE734D0C21C65032005CC463 /* CheckboxCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE734D0D21C65058005CC463 /* CheckboxCollectionViewCell.swift */,
+			);
+			path = CheckboxCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		DE734D0F21C6508F005CC463 /* BlankCollectionReuseCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE734D1021C650B5005CC463 /* BlankCollectionReuseCell.swift */,
+			);
+			path = BlankCollectionReuseCell;
+			sourceTree = "<group>";
+		};
+		DE734D1221C650D6005CC463 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				DE734D1321C650EB005CC463 /* CollectionView.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		DE734D1521C6520E005CC463 /* SelectGroupViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DE734D1621C65230005CC463 /* SelectGroupViewController.swift */,
+				DE734D1B21C655C6005CC463 /* SelectGroupViewController+CollectionView.swift */,
+				DE734D1D21C65675005CC463 /* SelectGroupViewController+Protocol.swift */,
+			);
+			path = SelectGroupViewController;
+			sourceTree = "<group>";
+		};
+		DE734D1821C65562005CC463 /* TitleCollectionViewHeader */ = {
+			isa = PBXGroup;
+			children = (
+				DE734D1921C65579005CC463 /* TitleCollectionViewHeader.swift */,
+			);
+			path = TitleCollectionViewHeader;
+			sourceTree = "<group>";
+		};
+		DE734D1F21C6589F005CC463 /* LabeledActionView */ = {
+			isa = PBXGroup;
+			children = (
+				DE734D2021C658CE005CC463 /* LabeledActionView.swift */,
+			);
+			path = LabeledActionView;
+			sourceTree = "<group>";
+		};
+		DE734D2421C778ED005CC463 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				DE734D2521C778F9005CC463 /* Button.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		DEC0191A22EF7FC300C35F39 /* LabeledPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				DEC0191B22EF7FD400C35F39 /* LabeledPickerView.swift */,
+				DEC0191D22EF7FE400C35F39 /* LabeledPickerView+PickerView.swift */,
+			);
+			path = LabeledPickerView;
+			sourceTree = "<group>";
+		};
+		DEC0192722F0C1B500C35F39 /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				DEC0192822F0C1D000C35F39 /* CoreDataManager.swift */,
+				DEC0192A22F0C2A200C35F39 /* CoreDataManager+WebITUsersOffices.swift */,
+				DEC0192C22F0CFFD00C35F39 /* CoreDataManager+AlertTemplate.swift */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		DEC276EC22D4FE71001AAC27 /* AlertStatsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DEC276ED22D4FE82001AAC27 /* AlertStatsViewController.swift */,
+				DEC2776922D5259A001AAC27 /* AlertStatsViewController+Protocol.swift */,
+				DEC2776B22D52B8E001AAC27 /* AlertStatsViewController+TableView.swift */,
+			);
+			path = AlertStatsViewController;
+			sourceTree = "<group>";
+		};
+		DEC2776D22D5448A001AAC27 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				DEC2776E22D5449C001AAC27 /* TableView.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		DEC2777022D545C9001AAC27 /* TableViewHeader */ = {
+			isa = PBXGroup;
+			children = (
+				DE736C70241FFABC00B1692A /* TableViewHeader.swift */,
+			);
+			path = TableViewHeader;
+			sourceTree = "<group>";
+		};
+		DEC2777622D54F85001AAC27 /* ResponseTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DEC2777722D54F9F001AAC27 /* ResponseTableViewCell.swift */,
+			);
+			path = ResponseTableViewCell;
+			sourceTree = "<group>";
+		};
+		DEC2777922D5522F001AAC27 /* Border */ = {
+			isa = PBXGroup;
+			children = (
+				DEC2777A22D5523A001AAC27 /* Border.swift */,
+			);
+			path = Border;
+			sourceTree = "<group>";
+		};
+		DECA8E5522E22C640042775D /* BasicTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DECA8E5622E22C740042775D /* BasicTableViewCell.swift */,
+			);
+			path = BasicTableViewCell;
+			sourceTree = "<group>";
+		};
+		DEE4B37922E8E331009BF922 /* LabeledTextfield */ = {
+			isa = PBXGroup;
+			children = (
+				DEE4B37A22E8E348009BF922 /* LabeledTextfield.swift */,
+			);
+			path = LabeledTextfield;
+			sourceTree = "<group>";
+		};
+		DEE4B37F22E90505009BF922 /* CheckboxView */ = {
+			isa = PBXGroup;
+			children = (
+				DEE4B38022E90514009BF922 /* CheckboxView.swift */,
+			);
+			path = CheckboxView;
+			sourceTree = "<group>";
+		};
+		DEE4B38222EBAD70009BF922 /* AlertTemplateMgmtController */ = {
+			isa = PBXGroup;
+			children = (
+				DEE4B38322EBAD88009BF922 /* AlertTemplateMgmtController.swift */,
+				DEE4B38522EBB11D009BF922 /* AlertTemplateMgmtController+ScrollView.swift */,
+				DEE4B38722EBB12E009BF922 /* AlertTemplateMgmtController+Protocol.swift */,
+				DEC0191F22EFA80300C35F39 /* AlertTemplateMgmtController+AlertTemplate.swift */,
+			);
+			path = AlertTemplateMgmtController;
+			sourceTree = "<group>";
+		};
+		DEE4B38922EBB27E009BF922 /* TextNavbarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				DEE4B38A22EBB292009BF922 /* TextNavbarButtonItem.swift */,
+			);
+			path = TextNavbarButtonItem;
+			sourceTree = "<group>";
+		};
+		DEF05B0F22D654E60067ECA0 /* AlertTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DEF05B1022D654FE0067ECA0 /* AlertTableViewController.swift */,
+				DEF05B1222D6551F0067ECA0 /* AlertTableViewController+TableView.swift */,
+				DEF6BA2C23F4A6E400B21A57 /* AlertTableViewController+Protocol.swift */,
+			);
+			path = AlertTableViewController;
+			sourceTree = "<group>";
+		};
 		DEF442F321C45F3F00CF36CD = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +536,8 @@
 				DEF4431621C45F4100CF36CD /* AmadaAlertTests */,
 				DEF4432121C45F4100CF36CD /* AmadaAlertUITests */,
 				DEF442FD21C45F3F00CF36CD /* Products */,
+				BFDFB4300D30CC543FB54E6E /* Pods */,
+				D5911F78DA5A4583B5C7698F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,16 +554,18 @@
 		DEF442FE21C45F3F00CF36CD /* AmadaAlert */ = {
 			isa = PBXGroup;
 			children = (
+				DEC0192722F0C1B500C35F39 /* CoreDataManager */,
+				DE007EFA22E7B1BE001C5032 /* DBManager */,
+				DEF4434C21C470C400CF36CD /* Helpers */,
 				DEF4433221C45F5B00CF36CD /* Controller */,
 				DEF4433121C45F5400CF36CD /* View */,
 				DEF4433021C45F4A00CF36CD /* Model */,
 				DEF442FF21C45F3F00CF36CD /* AppDelegate.swift */,
 				DEF4430121C45F3F00CF36CD /* ViewController.swift */,
-				DEF4430321C45F3F00CF36CD /* Main.storyboard */,
 				DEF4430921C45F4000CF36CD /* Assets.xcassets */,
-				DEF4430B21C45F4000CF36CD /* LaunchScreen.storyboard */,
 				DEF4430E21C45F4000CF36CD /* Info.plist */,
 				DEF4430621C45F3F00CF36CD /* AmadaAlert.xcdatamodeld */,
+				DECA8E5822E2379E0042775D /* database.text */,
 			);
 			path = AmadaAlert;
 			sourceTree = "<group>";
@@ -134,6 +591,7 @@
 		DEF4433021C45F4A00CF36CD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DEF4433621C4625300CF36CD /* api */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -141,6 +599,30 @@
 		DEF4433121C45F5400CF36CD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DE4C55DB240D96B100797898 /* SettingsTableViewCell */,
+				DE5876BA23EB99DE004ECD18 /* TableCellTextView */,
+				DEC0191A22EF7FC300C35F39 /* LabeledPickerView */,
+				DEE4B38922EBB27E009BF922 /* TextNavbarButtonItem */,
+				DEE4B37F22E90505009BF922 /* CheckboxView */,
+				DEE4B37922E8E331009BF922 /* LabeledTextfield */,
+				DECA8E5522E22C640042775D /* BasicTableViewCell */,
+				DE1C447E22E146B8002B3985 /* AddNavbarButtonItem */,
+				DEC2777922D5522F001AAC27 /* Border */,
+				DEC2777622D54F85001AAC27 /* ResponseTableViewCell */,
+				DEC2777022D545C9001AAC27 /* TableViewHeader */,
+				DEC2776D22D5448A001AAC27 /* TableView */,
+				DE39024B21C80B5200A32B6B /* SelectTableViewCell */,
+				DE39024621C7FB0200A32B6B /* AddButtonHeaderView */,
+				DE734D2421C778ED005CC463 /* Button */,
+				DE734D1F21C6589F005CC463 /* LabeledActionView */,
+				DE734D1821C65562005CC463 /* TitleCollectionViewHeader */,
+				DE734D1221C650D6005CC463 /* CollectionView */,
+				DE734D0F21C6508F005CC463 /* BlankCollectionReuseCell */,
+				DE734D0C21C65032005CC463 /* CheckboxCollectionViewCell */,
+				DEF4435221C4762600CF36CD /* CloseNavbarButtonItem */,
+				DEF4434921C4702300CF36CD /* LabeledTextInputView */,
+				DEF4434621C46E6700CF36CD /* ScrollView */,
+				DEF4434321C46DF800CF36CD /* TitleView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -148,8 +630,109 @@
 		DEF4433221C45F5B00CF36CD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DE4C55D8240D93A100797898 /* SettingsViewController */,
+				DE65DD492408A97A00CD4C34 /* TextInputViewController */,
+				DE65DD462408A89700CD4C34 /* AlertNotificationTypeMgmtViewController */,
+				DEE4B38222EBAD70009BF922 /* AlertTemplateMgmtController */,
+				DEF05B0F22D654E60067ECA0 /* AlertTableViewController */,
+				DEC276EC22D4FE71001AAC27 /* AlertStatsViewController */,
+				DE39024321C7F9E600A32B6B /* CreateResponseViewController */,
+				DE734D1521C6520E005CC463 /* SelectGroupViewController */,
+				DEF4434021C46CB900CF36CD /* CreateAlertViewController */,
+				DEF4433D21C46BA600CF36CD /* NavigationController */,
+				DEF4433A21C46B1E00CF36CD /* HomeViewController */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		DEF4433621C4625300CF36CD /* api */ = {
+			isa = PBXGroup;
+			children = (
+				DEBF0CDA23EB8F850095E2A5 /* Alert.swift */,
+				DE65603522E612FB00EC1659 /* AlertNotificationType.swift */,
+				DE65603722E6138A00EC1659 /* AlertResponse.swift */,
+				DE65603922E6147C00EC1659 /* AlertRetryLog.swift */,
+				DE65603B22E614E100EC1659 /* AlertTemplate.swift */,
+				DE65603D22E6161700EC1659 /* AlertTemplateResponse.swift */,
+				DE65603F22E6177100EC1659 /* AlertTemplateUser.swift */,
+				DE65604122E617E800EC1659 /* AlertUser.swift */,
+				DE007EF822E7B13C001C5032 /* WebITUsersOffices.swift */,
+				DEC0192322EFABB100C35F39 /* AlertModel.swift */,
+				DEC0192522EFAC9F00C35F39 /* AlertTemplateModel.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		DEF4433A21C46B1E00CF36CD /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DEF4433B21C46B3900CF36CD /* HomeViewController.swift */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		DEF4433D21C46BA600CF36CD /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				DEF4433E21C46BCF00CF36CD /* NavigationController.swift */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		DEF4434021C46CB900CF36CD /* CreateAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DEF4434121C46CD100CF36CD /* CreateAlertViewController.swift */,
+				DEF4435521C482D600CF36CD /* CreateAlertViewController+ScrollView.swift */,
+				DE734D2221C76849005CC463 /* CreateAlertViewController+Protocol.swift */,
+				DEC0192122EFA83A00C35F39 /* CreateAlertViewController+Alert.swift */,
+			);
+			path = CreateAlertViewController;
+			sourceTree = "<group>";
+		};
+		DEF4434321C46DF800CF36CD /* TitleView */ = {
+			isa = PBXGroup;
+			children = (
+				DEF4434421C46E2900CF36CD /* TitleView.swift */,
+			);
+			path = TitleView;
+			sourceTree = "<group>";
+		};
+		DEF4434621C46E6700CF36CD /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				DEF4434721C46E7800CF36CD /* ScrollView.swift */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		DEF4434921C4702300CF36CD /* LabeledTextInputView */ = {
+			isa = PBXGroup;
+			children = (
+				DEF4434A21C4703500CF36CD /* LabeledTextInputView.swift */,
+				DEF4435021C471F300CF36CD /* LabeledTextInputView+TextView.swift */,
+			);
+			path = LabeledTextInputView;
+			sourceTree = "<group>";
+		};
+		DEF4434C21C470C400CF36CD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DEC2777D22D552F7001AAC27 /* Date+Extensions.swift */,
+				DEC2777422D54648001AAC27 /* Font+Extension.swift */,
+				DEF4434E21C470E200CF36CD /* UIColor+Extension.swift */,
+				DEBF0CD823EB8DE50095E2A5 /* UIViewController+Extension.swift */,
+				DE13657B23F1FF5900B117A0 /* UIView+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DEF4435221C4762600CF36CD /* CloseNavbarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				DEF4435321C4764000CF36CD /* CloseNavbarButtonItem.swift */,
+			);
+			path = CloseNavbarButtonItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,9 +742,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEF4432721C45F4100CF36CD /* Build configuration list for PBXNativeTarget "AmadaAlert" */;
 			buildPhases = (
+				F07CE7732E6233487E29C5BA /* [CP] Check Pods Manifest.lock */,
 				DEF442F821C45F3F00CF36CD /* Sources */,
 				DEF442F921C45F3F00CF36CD /* Frameworks */,
 				DEF442FA21C45F3F00CF36CD /* Resources */,
+				398EADBBED40A1A73DB3A922 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,6 +761,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEF4432A21C45F4100CF36CD /* Build configuration list for PBXNativeTarget "AmadaAlertTests" */;
 			buildPhases = (
+				C7DE48E831785932E1F47F12 /* [CP] Check Pods Manifest.lock */,
 				DEF4430F21C45F4100CF36CD /* Sources */,
 				DEF4431021C45F4100CF36CD /* Frameworks */,
 				DEF4431121C45F4100CF36CD /* Resources */,
@@ -194,6 +780,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEF4432D21C45F4100CF36CD /* Build configuration list for PBXNativeTarget "AmadaAlertUITests" */;
 			buildPhases = (
+				75C9F0F0D25F84B6800F4741 /* [CP] Check Pods Manifest.lock */,
 				DEF4431A21C45F4100CF36CD /* Sources */,
 				DEF4431B21C45F4100CF36CD /* Frameworks */,
 				DEF4431C21C45F4100CF36CD /* Resources */,
@@ -220,13 +807,16 @@
 				TargetAttributes = {
 					DEF442FB21C45F3F00CF36CD = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1130;
 					};
 					DEF4431221C45F4100CF36CD = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1130;
 						TestTargetID = DEF442FB21C45F3F00CF36CD;
 					};
 					DEF4431D21C45F4100CF36CD = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1130;
 						TestTargetID = DEF442FB21C45F3F00CF36CD;
 					};
 				};
@@ -256,9 +846,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEF4430D21C45F4000CF36CD /* LaunchScreen.storyboard in Resources */,
 				DEF4430A21C45F4000CF36CD /* Assets.xcassets in Resources */,
-				DEF4430521C45F3F00CF36CD /* Main.storyboard in Resources */,
+				DECA8E5922E2379E0042775D /* database.text in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,14 +867,167 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		398EADBBED40A1A73DB3A922 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AmadaAlert/Pods-AmadaAlert-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AmadaAlert/Pods-AmadaAlert-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75C9F0F0D25F84B6800F4741 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmadaAlertUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7DE48E831785932E1F47F12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmadaAlertTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F07CE7732E6233487E29C5BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmadaAlert-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DEF442F821C45F3F00CF36CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEC0191E22EF7FE400C35F39 /* LabeledPickerView+PickerView.swift in Sources */,
+				DE734D2321C76849005CC463 /* CreateAlertViewController+Protocol.swift in Sources */,
+				DEC2777B22D5523A001AAC27 /* Border.swift in Sources */,
+				DEC0192D22F0CFFD00C35F39 /* CoreDataManager+AlertTemplate.swift in Sources */,
+				DEF6A01723FF3210007113CF /* DBManager+AlertTemplate.swift in Sources */,
+				DEF05B1122D654FE0067ECA0 /* AlertTableViewController.swift in Sources */,
+				DEE4B38122E90514009BF922 /* CheckboxView.swift in Sources */,
+				DE734D1721C65230005CC463 /* SelectGroupViewController.swift in Sources */,
+				DEF4433F21C46BCF00CF36CD /* NavigationController.swift in Sources */,
+				DE65DD452408A3B100CD4C34 /* DBManager+AlertNotificationType.swift in Sources */,
+				DE734D1121C650B5005CC463 /* BlankCollectionReuseCell.swift in Sources */,
+				DE65604222E617E800EC1659 /* AlertUser.swift in Sources */,
+				DEC0191C22EF7FD400C35F39 /* LabeledPickerView.swift in Sources */,
+				DEF05B1322D6551F0067ECA0 /* AlertTableViewController+TableView.swift in Sources */,
+				DE39024521C7FA0300A32B6B /* CreateResponseViewController.swift in Sources */,
+				DE13657E23F2346D00B117A0 /* CreateResponseViewController+TableView.swift in Sources */,
+				DE734D1A21C65579005CC463 /* TitleCollectionViewHeader.swift in Sources */,
+				DEF4433C21C46B3900CF36CD /* HomeViewController.swift in Sources */,
 				DEF4430221C45F3F00CF36CD /* ViewController.swift in Sources */,
+				DEF6A01923FF5A10007113CF /* DBManager+AlertTemplateResponse.swift in Sources */,
+				DE65603822E6138A00EC1659 /* AlertResponse.swift in Sources */,
+				DEE4B38B22EBB292009BF922 /* TextNavbarButtonItem.swift in Sources */,
+				DE65603A22E6147C00EC1659 /* AlertRetryLog.swift in Sources */,
+				DEC0192422EFABB100C35F39 /* AlertModel.swift in Sources */,
+				DE734D2121C658CE005CC463 /* LabeledActionView.swift in Sources */,
+				DEC276EE22D4FE82001AAC27 /* AlertStatsViewController.swift in Sources */,
+				DEF4434F21C470E200CF36CD /* UIColor+Extension.swift in Sources */,
+				DE734D1C21C655C6005CC463 /* SelectGroupViewController+CollectionView.swift in Sources */,
+				DE39024D21C80B7400A32B6B /* SelectTableViewCell.swift in Sources */,
+				DE39024821C7FB1C00A32B6B /* AddButtonTableViewHeader.swift in Sources */,
+				DEF4434B21C4703500CF36CD /* LabeledTextInputView.swift in Sources */,
+				DE13657C23F1FF5900B117A0 /* UIView+Extensions.swift in Sources */,
+				DEC0192622EFAC9F00C35F39 /* AlertTemplateModel.swift in Sources */,
+				DE65603622E612FB00EC1659 /* AlertNotificationType.swift in Sources */,
+				DEBF0CD723EB886E0095E2A5 /* DBManager+Alert.swift in Sources */,
+				DEBF0CD923EB8DE50095E2A5 /* UIViewController+Extension.swift in Sources */,
 				DEF4430821C45F3F00CF36CD /* AmadaAlert.xcdatamodeld in Sources */,
+				DE5876BC23EB99F8004ECD18 /* TableCellTextView.swift in Sources */,
+				DEE4B38822EBB12E009BF922 /* AlertTemplateMgmtController+Protocol.swift in Sources */,
+				DE734D0E21C65058005CC463 /* CheckboxCollectionViewCell.swift in Sources */,
+				DE734D1421C650EB005CC463 /* CollectionView.swift in Sources */,
+				DEC2776C22D52B8E001AAC27 /* AlertStatsViewController+TableView.swift in Sources */,
+				DE65DD482408A8AE00CD4C34 /* AlertNotificationTypeMgmtViewController.swift in Sources */,
+				DE4C55E0240D984800797898 /* SettingsViewController+TableView.swift in Sources */,
+				DE007EFC22E7B28D001C5032 /* DBManager.swift in Sources */,
+				DEF4434221C46CD100CF36CD /* CreateAlertViewController.swift in Sources */,
+				DE1C448022E146D7002B3985 /* AddNavbarButtonItem.swift in Sources */,
 				DEF4430021C45F3F00CF36CD /* AppDelegate.swift in Sources */,
+				DEF4435621C482D600CF36CD /* CreateAlertViewController+ScrollView.swift in Sources */,
+				DEE4B38422EBAD88009BF922 /* AlertTemplateMgmtController.swift in Sources */,
+				DEF6BA2D23F4A6E400B21A57 /* AlertTableViewController+Protocol.swift in Sources */,
+				DEF4434521C46E2900CF36CD /* TitleView.swift in Sources */,
+				DE65DD4B2408A98A00CD4C34 /* TextInputViewController.swift in Sources */,
+				DE14296323F5E28D00894A8F /* DBManager+AlertResponse.swift in Sources */,
+				DE734D2621C778F9005CC463 /* Button.swift in Sources */,
+				DEE4B37B22E8E348009BF922 /* LabeledTextfield.swift in Sources */,
+				DEBF0CDB23EB8F850095E2A5 /* Alert.swift in Sources */,
+				DE734D1E21C65675005CC463 /* SelectGroupViewController+Protocol.swift in Sources */,
+				DE4C55DE240D96CD00797898 /* SettingsTableViewCell.swift in Sources */,
+				DEC0192B22F0C2A200C35F39 /* CoreDataManager+WebITUsersOffices.swift in Sources */,
+				DE007EF922E7B13C001C5032 /* WebITUsersOffices.swift in Sources */,
+				DEC2776A22D5259A001AAC27 /* AlertStatsViewController+Protocol.swift in Sources */,
+				DE65603C22E614E100EC1659 /* AlertTemplate.swift in Sources */,
+				DE007EFE22E7B2B3001C5032 /* DBManager+UsersOffices.swift in Sources */,
+				DE65604022E6177100EC1659 /* AlertTemplateUser.swift in Sources */,
+				DEF4435421C4764000CF36CD /* CloseNavbarButtonItem.swift in Sources */,
+				DEE4B38622EBB11D009BF922 /* AlertTemplateMgmtController+ScrollView.swift in Sources */,
+				DE4C55DA240D93B300797898 /* SettingsViewController.swift in Sources */,
+				DEC0192922F0C1D000C35F39 /* CoreDataManager.swift in Sources */,
+				DE39024F21C811E100A32B6B /* CreateResponseViewController+Protocol.swift in Sources */,
+				DEC0192222EFA83A00C35F39 /* CreateAlertViewController+Alert.swift in Sources */,
+				DE736C71241FFABC00B1692A /* TableViewHeader.swift in Sources */,
+				DE65603E22E6161700EC1659 /* AlertTemplateResponse.swift in Sources */,
+				DEC2777E22D552F7001AAC27 /* Date+Extensions.swift in Sources */,
+				DEC2776F22D5449C001AAC27 /* TableView.swift in Sources */,
+				DEC0192022EFA80300C35F39 /* AlertTemplateMgmtController+AlertTemplate.swift in Sources */,
+				DECA8E5722E22C740042775D /* BasicTableViewCell.swift in Sources */,
+				DEC2777522D54648001AAC27 /* Font+Extension.swift in Sources */,
+				DEF4435121C471F300CF36CD /* LabeledTextInputView+TextView.swift in Sources */,
+				DEC2777822D54F9F001AAC27 /* ResponseTableViewCell.swift in Sources */,
+				DEF4434821C46E7800CF36CD /* ScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,25 +1061,6 @@
 			targetProxy = DEF4431F21C45F4100CF36CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		DEF4430321C45F3F00CF36CD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DEF4430421C45F3F00CF36CD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DEF4430B21C45F4000CF36CD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DEF4430C21C45F4000CF36CD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DEF4432521C45F4100CF36CD /* Debug */ = {
@@ -458,10 +1181,11 @@
 		};
 		DEF4432821C45F4100CF36CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE7A72F69914C65161BFE914 /* Pods-AmadaAlert.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C5G29TXJ6E;
+				DEVELOPMENT_TEAM = 9CVKTECN2J;
 				INFOPLIST_FILE = AmadaAlert/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -476,10 +1200,11 @@
 		};
 		DEF4432921C45F4100CF36CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B97477CB394A2A6B954222 /* Pods-AmadaAlert.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = C5G29TXJ6E;
+				DEVELOPMENT_TEAM = 9CVKTECN2J;
 				INFOPLIST_FILE = AmadaAlert/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -494,6 +1219,7 @@
 		};
 		DEF4432B21C45F4100CF36CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49255732E7B6D3074EEE1BC7 /* Pods-AmadaAlertTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +1241,7 @@
 		};
 		DEF4432C21C45F4100CF36CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCFE249812D569D76BB5A146 /* Pods-AmadaAlertTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -536,6 +1263,7 @@
 		};
 		DEF4432E21C45F4100CF36CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B57733DE943C6D68B4F13A08 /* Pods-AmadaAlertUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -556,6 +1284,7 @@
 		};
 		DEF4432F21C45F4100CF36CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53B76DCD3C1D3E4828AFB976 /* Pods-AmadaAlertUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
